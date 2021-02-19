@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .section_1 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  .section_1 .vid {
+    height: 100%;
+    position: fixed;
+    z-index: -100;
+    width: 100%;
+  }
+  .section_1 .vid video {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .section_1 nav {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section_1 nav .link1 {
+    display: flex;
+  }
+  .section_1 nav .link1 li {
+    list-style-type: none;
+  }
+  .section_1 nav .link1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .section_1 nav .link1 li a:hover,
+  .section_1 nav .link2 li a:hover {
+    color: lightgray;
+  }
+  .section_1 nav .link2 {
+    display: flex;
+  }
+  .section_1 nav .link2 li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .section_1 nav .link2 li:hover {
+    color: lightgray;
+    cursor: pointer;
+  }
+  
+  .section_1 .recherch {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section_1 .recherch #button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    /* border-radius: 5px; */
+  }
+  .section_1 .recherch #inputText {
+    width: 400px;
+    height: 50px;
+    border: none;
+    /* border-radius: 5px; */
+  }
+  .section_1 .recherch .divrech {
+    width: 33%;
+    margin: auto;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    display: flex;
+    background-color: lightgray;
+    opacity: 50%;
+  }
+  .section_1 .recherch .divrech .icon {
+    margin: 10px 10px 0 10px;
+  }
+  .section_1 .recherch .divrech .icon i {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  .section_1 .recherch .divrech .icon i:hover {
+    color: brown;
+  }
+  .section_1 .recherch .divrech input {
+    width: 80%;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+  }
+  .section_2 {
+    width: 100%;
+    height: 500px;
+    /* background-color: white; */
+    margin-top: 200px;
+    /* background-color: lightgray; */
+  }
+  .section_2 #squareImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .section_2 .contArticle {
+    /* background-color: rgb(161, 149, 149); */
+    /* opacity: 50%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .section_2 .contArticle .img {
+    position: relative;
+    top: -36%;
+  }
+  .section_2 #art1:hover {
+    opacity: 100%;
+    background-color: lightgray;
+  }
+  .section_2 #art2:hover {
+    opacity: 100%;
+    background-color: lightgray;
+
+  }
+  .section_2 #art2 h3 {
+    /* transform: translateZ(20px); */
+  }
+  .section_2 #art3:hover {
+    opacity: 100%;
+    background-color: lightgray;
+
+  }
+  /* login style */
+  #sectionLogin {
+    height: 400px;
+    opacity: 50%;
+  }
+  .cont {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont input,
+  .cont a {
+    width: 80%;
+    margin: auto;
+    height: 34px;
+    margin-top: 30px;
+  }
+  .cont .inputText {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .cont .inputText #buttonAll {
+    background-color: crimson;
+  }
+  .cont .inputText .img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -20%;
+  }
+  .cont .inputText .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .cont .sos {
+    width: 30%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* inscription style */
+  #inscriptionPage1 {
+    height: 400px;
+  }
+  
+  .continscription {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 100px; */
+    height: 100%;
+    background-color: white;
+    opacity: 50%;
+  }
+  /* rows style */
+  .continscription {
+    overflow: hidden;
+  }
+  .continscription #mainRow {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .continscription #mainRow .row #inputText {
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-bottom: 3px solid;
+    margin-bottom: 30px;
+  }
+  .continscription #mainRow .row #submit {
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: crimson;
+  }
+  
+  /* domand style */
+  .contD_Page {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: white;
+    opacity: 70%;
+    overflow: hidden;
+  }
+  .contD_Page .rowMain {
+    margin-top: 40px;
+  }
+  .contD_Page h3 {
+    margin-left: 50px;
+  }
+  .contD_Page input {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+  }
+  .contD_Page #button {
+    background-color: brown;
+  }
+  /* contact us style */
+  #centactUS {
+    width: 80%;
+    margin: auto;
+    height: 650px;
+    background-color: white;
+    overflow: hidden;
+    opacity: 50%;
+  }
+  #centactUS:hover {
+    opacity: 100%;
+  }
+  #centactUS .contact {
+    overflow: hidden;
+  }
+  #centactUS .contact h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  #centactUS .contact .Email_User {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #centactUS .contact .Email_User input {
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid;
+  }
+  #centactUS .contact .objet {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #centactUS .contact .objet input {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid;
+  }
+  #centactUS .contact .textEmil {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #centactUS .contact .textEmil textarea {
+    width: 90%;
+  }
+  #centactUS .contact .submitButton {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #centactUS .contact .submitButton input {
+    width: 90%;
+    background-color: crimson;
+    border: none;
+    height: 30px;
+    color: white;
+  }
+  #centactUS .contact .submitButton input:hover {
+    background-color: rgb(197, 122, 137);
+    color: black;
+  }
+  /* map style */
+  #map {
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 50px;
+    background-color: white;
+    overflow: hidden;
+    opacity: 50%;
+  }
+  #map:hover {
+    opacity: 100%;
+  }
+  #map .mapAll {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  #map .mapAll .mapPlace {
+    width: 60%;
+    height: 100%;
+  }
+  #map .mapAll .mapPlace h3 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  #map .mapAll .mapPlace iframe {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  #map .mapAll .info {
+    width: 40%;
+  }
+  #map .mapAll .info {
+  }
+  #map .mapAll .info h3 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  #map .mapAll .info label {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  #map .mapAll .info select {
+    width: 70%;
+  }
+  /* footer */
+  footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  footer .rech {
+    width: 70%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  footer .rech .logo {
+    margin-right: 10px;
+  }
+  footer .rech .logo i {
+    /* width: 50px; */
+    /* height: 100%; */
+    cursor: pointer;
+  }
+  footer .rech .logo i:hover {
+    color: crimson;
+  }
+  footer .inRech {
+    width: 30%;
+  }
+  footer .inRech input {
+    height: 100%;
+    width: 100%;
+  }
+  footer .links {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .links .link_g_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .links .link_g_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .links .link_g_3 {
+    display: flex;
+    flex-direction: column;
+  }
+  /* back img */
+  .imgmain{
+      background-image: url("img/blood.jpg");
+      background-size: cover;
+      height: 500px;
+  }
+  

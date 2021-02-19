@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(hct.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* nav bar */
+.bigLogo {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+}
+/* nav bar white */
+.bigLogo .logo {
+  width: 20%;
+  height: 150px;
+}
+.bigLogo .logo img {
+  width: 100%;
+  height: 150px;
+}
+.bigLogo .linksAll {
+  width: 80%;
+}
+.bigLogo .linksAll .conttainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.bigLogo .linksAll form {
+  display: flex;
+}
+.bigLogo .linksAll form button {
+  border-radius: 5px;
+  background-color: crimson;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+}
+.bigLogo .linksAll form button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.bigLogo .linksAll .links ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.bigLogo .linksAll .links ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 25px;
+}
+.bigLogo .linksAll .links ul li a:hover {
+  color: crimson;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 45px;
+}
+nav .link1 {
+  display: flex;
+}
+nav .link1 li {
+  list-style-type: none;
+}
+nav .link1 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link1 li a:hover,
+nav .link2 li a:hover {
+  color: lightgray;
+}
+nav .link2 {
+  display: flex;
+}
+nav .link2 li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link2 li:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+.hearInfo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+}
+.hearInfo p {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.hearInfo .MainrS i {
+  color: white;
+}
+.continscription #mainRow .row {
+  flex-direction: column;
+}
+.img_wite {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.continscription #mainRow .rowf {
+  display: contents;
+}
+#inscriptionPage1 {
+  height: 780px;
+  margin-top: 19px;
+  text-align: center;
+}
+.para {
+  text-align: justify;
+}
+.continscription {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-color: white;
+  opacity: 50%;
+}
+.continscription:hover {
+  opacity: 100%;
+  background-color: rgb(255, 254, 254);
+}
+.continscription {
+  overflow: hidden;
+}
+.continscription #mainRow {
+  width: 80%;
+  margin: auto;
+  margin-top: 42.6px;
+}
+.continscription #mainRow .row #inputText {
+  width: 209%;
+  height: 35px;
+  border: none;
+  border-bottom: 3px solid;
+  margin-bottom: 30px;
+}
+.continscription #mainRow .row #inputText:hover {
+  border: red 2px solid;
+  box-shadow: 3px 3px 1px red;
+}
+.continscription #mainRow .row #submit {
+  width: 80%;
+  height: 35px;
+  border: none;
+  background-color: crimson;
+}
+.d-flex {
+  width: 19%;
+  justify-content: space-evenly;
+}
+
+.maa {
+  margin-top: 50px;
+  display: flex;
+}
+/* vido bg  */
+.section_1 {
+  width: 100%;
+  /* height: 200px; */
+  position: relative;
+  overflow: hidden;
+}
+.section_1 .vid {
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.section_1 .vid video {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.part_write {
+  background-color: black;
+  width: 45%;
+  height: 519px;
+}
+/* footer */
+/* footer */
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  overflow: hidden;
+}
+footer .rech {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+footer .rech .logo {
+  margin-right: 10px;
+}
+footer .links {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+footer .links .link_g_1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_3 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_4 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_1 a,
+footer .links .link_g_2 a,
+footer .links .link_g_3 a,
+footer .links .link_g_4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+footer .links .link_g_1 a:hover,
+footer .links .link_g_2 a:hover,
+footer .links .link_g_3 a:hover,
+footer .links .link_g_4 a:hover {
+  color: crimson;
+}
+footer .footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer p {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .btn {
+    position: relative;
+    left: -27px;
+  }
+  .continscription {
+    height: 690px;
+    opacity: 100%;
+  }
+  body {
+    height: 770px;
+    background-position: center;
+    background-size: cover;
+  }
+  .continscription #mainRow {
+    position: relative;
+    left: 50px;
+  }
+  .d-flex {
+    width: 24%;
+    justify-content: space-between;
+  }
+  .ft {
+    position: relative;
+    top: 260px;
+  }
+  .col-md-6 {
+    display: contents;
+  }
+  /* nav bar */
+
+  .bigLogo {
+    height: 500px;
+    display: initial;
+  }
+  .bigLogo .logo {
+    width: 100%;
+  }
+  .bigLogo .logo img {
+    width: 80%;
+    margin: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    background-color: #fb6767;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav .link1 li a {
+    color: black;
+  }
+  nav .link2 li {
+    color: black;
+  }
+  /* footer */
+  footer .links{
+    flex-direction: column;
+    height: auto;
+  }
+}

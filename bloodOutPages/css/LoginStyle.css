@@ -1,0 +1,378 @@
+/* login style */
+body {
+  background-image: url(blood_types.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+#sectionLogin {
+  width: 80%;
+  height: 574px;
+  opacity: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.log {
+  font-size: 59px;
+}
+#sectionLogin:hover {
+  opacity: 100%;
+}
+.cont {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont input,
+.cont a {
+  width: 80%;
+  margin: auto;
+  height: 34px;
+  margin-top: 30px;
+}
+.cont .inputText {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: black 2px;
+  height: 416px;
+}
+
+.cont .inputText #buttonLogin {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+  font-size: 25px;
+}
+.cont .inputText .img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -20%;
+}
+.img_pro {
+  width: 15%;
+}
+.cont .inputText .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.sos {
+  width: 30%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 20px;
+}
+.form-inline {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  background-color: rgb(49, 47, 47);
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+.fab {
+  color: rgb(6, 6, 245);
+}
+/* vido bg  */
+.section_1 {
+  width: 100%;
+  /* height: 200px; */
+  position: relative;
+  overflow: hidden;
+}
+.section_1 .vid {
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  width: 100%;
+}
+.section_1 .vid video {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+/* button style */
+.btnA {
+  width: 120px;
+  padding: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #800000;
+  font-size: 20px;
+  color: white;
+}
+.btnA:hover {
+  padding: 10px;
+  width: 140px;
+}
+.btnB {
+  width: 120px;
+  padding: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #800000;
+  font-size: 20px;
+  color: white;
+  transition: all 0.03;
+}
+.btnB:hover {
+  padding: 10px;
+  width: 140px;
+}
+/* nav bar */
+.bigLogo {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+}
+/* nav bar white */
+.bigLogo .logo {
+  width: 20%;
+  height: 100%;
+}
+.bigLogo .logo img {
+  width: 100%;
+  height: 100%;
+}
+.bigLogo .linksAll {
+  width: 80%;
+}
+.bigLogo .linksAll .conttainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.bigLogo .linksAll form {
+  display: flex;
+}
+.bigLogo .linksAll form button {
+  border-radius: 5px;
+  background-color: crimson;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+}
+.bigLogo .linksAll form button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.bigLogo .linksAll .links ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.bigLogo .linksAll .links ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 25px;
+}
+.bigLogo .linksAll .links ul li a:hover {
+  color: crimson;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 45px;
+}
+nav .link1 {
+  display: flex;
+}
+nav .link1 li {
+  list-style-type: none;
+}
+nav .link1 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link1 li a:hover,
+nav .link2 li a:hover {
+  color: lightgray;
+}
+nav .link2 {
+  display: flex;
+}
+nav .link2 li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link2 li:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+.hearInfo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+}
+.hearInfo p {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.hearInfo .MainrS i {
+  color: white;
+}
+/* footer */
+/* footer */
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  overflow: hidden;
+}
+footer .rech {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+footer .rech .logo {
+  margin-right: 10px;
+}
+footer .links {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+footer .links .link_g_1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_3 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_4 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_1 a,
+footer .links .link_g_2 a,
+footer .links .link_g_3 a,
+footer .links .link_g_4 a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+footer .links .link_g_1 a:hover,
+footer .links .link_g_2 a:hover,
+footer .links .link_g_3 a:hover,
+footer .links .link_g_4 a:hover{
+  color: crimson;
+}
+footer .footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+footer .footer p{
+  font-size: 25px;
+text-align: center;
+}
+
+
+@media (max-width: 720px) {
+  /* nav bar */
+  .bigLogo {
+    height: 500px;
+    display: initial;
+  }
+  .bigLogo .logo {
+    width: 100%;
+  }
+  .bigLogo .logo img {
+    width: 80%;
+    margin: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    background-color: #fb6767;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav .link1 li a {
+    color: black;
+  }
+  nav .link2 li {
+    color: black;
+  }
+  /* nav bar end */
+  .form-inline {
+    width: 36%;
+  }
+  #sectionLogin {
+    opacity: 100%;
+    height: 491px;
+  }
+  .cont .inputText .img {
+    width: 21%;
+  }
+  .log {
+    font-size: 31px;
+  }
+  /* video */
+  .section_1 {
+    display: none;
+  }
+  /* cont */
+  #sectionLogin {
+    background-color: lightgray;
+  }
+  .cont {
+    background-color: lightgray;
+  }
+  /* footer */
+  footer .links{
+    flex-direction: column;
+    height: auto;
+  }
+}

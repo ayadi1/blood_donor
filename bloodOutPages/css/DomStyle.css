@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url("img/bgImg3.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* domand style */
+.dom {
+  width: 80%;
+  margin: auto;
+  height: 600px;
+  background-color: lightgrey;
+  opacity: 50%;
+  margin-top: 100px;
+  display: flex;
+}
+.dom:hover {
+  opacity: 90%;
+}
+.dom .input {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dom .input [type="button"] {
+  background-color: crimson;
+  color: white;
+  border: none;
+}
+.dom .input input {
+  width: 80%;
+  margin-top: 20px;
+  height: 34px;
+  border: none;
+  border-bottom: 2px solid;
+  /* background: none; */
+}
+.dom .input input:checked {
+  background-color: crimson;
+}
+.dom .input .celect {
+  width: 80%;
+  margin-top: 20px;
+}
+.dom .input textarea {
+  width: 80%;
+  margin-top: 20px;
+}
+.dom .img {
+  width: 50%;
+}
+.dom .img img {
+  width: 100%;
+}
+
+/* vido bg  */
+
+.vid {
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  width: 100%;
+}
+.vid video {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+/* nav bar */
+.bigLogo {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+}
+/* nav bar white */
+.bigLogo .logo {
+  width: 20%;
+  height: 100%;
+}
+.bigLogo .logo img {
+  width: 100%;
+  height: 100%;
+}
+.bigLogo .linksAll {
+  width: 80%;
+}
+.bigLogo .linksAll .conttainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.bigLogo .linksAll form {
+  display: flex;
+}
+.bigLogo .linksAll form button {
+  border-radius: 5px;
+  background-color: crimson;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+}
+.bigLogo .linksAll form button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.bigLogo .linksAll .links ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.bigLogo .linksAll .links ul li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 25px;
+}
+.bigLogo .linksAll .links ul li a:hover {
+  color: crimson;
+}
+nav {
+  /* width: 80%; */
+  /* margin: auto; */
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 45px;
+}
+nav .link1 {
+  display: flex;
+}
+nav .link1 li {
+  list-style-type: none;
+}
+nav .link1 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link1 li a:hover,
+nav .link2 li a:hover {
+  color: lightgray;
+}
+nav .link2 {
+  display: flex;
+}
+nav .link2 li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav .link2 li:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+.hearInfo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+}
+.hearInfo p {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.hearInfo .MainrS i {
+  color: white;
+}
+/* footer */
+/* footer */
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  overflow: hidden;
+}
+footer .rech {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+footer .rech .logo {
+  margin-right: 10px;
+}
+footer .links {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+footer .links .link_g_1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_3 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_4 {
+  display: flex;
+  flex-direction: column;
+}
+footer .links .link_g_1 a,
+footer .links .link_g_2 a,
+footer .links .link_g_3 a,
+footer .links .link_g_4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+footer .links .link_g_1 a:hover,
+footer .links .link_g_2 a:hover,
+footer .links .link_g_3 a:hover,
+footer .links .link_g_4 a:hover {
+  color: crimson;
+}
+footer .footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer p {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .bigLogo {
+    height: 500px;
+    display: initial;
+  }
+  .bigLogo .logo {
+    width: 100%;
+  }
+  .bigLogo .logo img {
+    width: 80%;
+    margin: auto;
+  }
+  .section_1 {
+    height: 400px;
+  }
+  .section_1 nav {
+    flex-direction: column;
+    background-color: #fb6767;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .section_1 nav .link1 li a {
+    color: black;
+  }
+  .section_1 nav .link2 li {
+    color: black;
+  }
+  footer .links {
+    flex-direction: column;
+    height: auto;
+  }
+}

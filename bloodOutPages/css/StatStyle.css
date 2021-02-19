@@ -1,0 +1,100 @@
+body {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+}
+.diagram {
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+.diagram ul.einheiten {
+    list-style: none;
+    float: left;
+}
+.diagram ul.einheiten li {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+}
+.diagram ul.einheiten li:after {
+    content: '';
+    position: absolute;
+    left: 150%;
+    top: 50%;
+    width: 480px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.diagram .charts {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 500px;
+}
+.diagram .charts .chart-col {
+    width: 60px;
+    display: inline-block;
+    margin: 0 15px;
+}
+.diagram .charts .chart-col .chart-item {
+    background: #2ff177;
+    background: -moz-linear-gradient(top, #2ff177 2%, #26bf5d 98%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #2ff177), color-stop(98%, #26bf5d));
+    background: -webkit-linear-gradient(top, #2ff177 2%, #26bf5d 98%);
+    background: -o-linear-gradient(top, #2ff177 2%, #26bf5d 98%);
+    background: -ms-linear-gradient(top, #2ff177 2%, #26bf5d 98%);
+    background: linear-gradient(to bottom, #2ff177 2%, #26bf5d 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2ff177', endColorstr='#26bf5d',GradientType=0);
+    width: 60px;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+}
+.diagram .charts .chart-col .ci10 {
+    height: 23px;
+    line-height: 23px;
+}
+.diagram .charts .chart-col .ci20 {
+    height: 46px;
+    line-height: 46px;
+}
+.diagram .charts .chart-col .ci30 {
+    height: 69px;
+    line-height: 69px;
+}
+.diagram .charts .chart-col .ci40 {
+    height: 92px;
+    line-height: 92px;
+}
+.diagram .charts .chart-col .ci50 {
+    height: 115px;
+    line-height: 115px;
+}
+.diagram .charts .chart-col .ci60 {
+    height: 138px;
+    line-height: 138px;
+}
+.diagram .charts .chart-col .ci70 {
+    height: 161px;
+    line-height: 161px;
+}
+.diagram .charts .chart-col .ci80 {
+    height: 184px;
+    line-height: 184px;
+}
+.diagram .charts .chart-col .ci90 {
+    height: 207px;
+    line-height: 207px;
+}
+.diagram .charts .chart-col .ci100 {
+    height: 202px;
+    line-height: 230px;
+}
+.diagram .charts .chart-label {
+    color: #5f5f5f;
+    font-size: 12px;
+    opacity: 0.41;
+}
